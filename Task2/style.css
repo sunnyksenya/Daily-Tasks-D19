@@ -1,0 +1,91 @@
+/*.birds {
+  width: 600px;
+  height: 200px;
+}
+.birds_images {
+  float: left;
+  width: 200px;
+  height: 200px;
+}*/
+/*Задание 3.*/
+#playground {
+  width: 1000px;
+  height: 800px;
+  margin: 50px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+#ufo {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 750px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+#ufo_image {
+  width: 100%;
+}
+#grass {
+  width: 100%;
+  position: absolute;
+  top: 665px;
+  z-index: 2;
+}
+#tree1 {
+  width: 20%;
+  position: absolute;
+  top: 450px;
+  left: 450px;
+  z-index: 2;
+}
+#tree2 {
+  width: 15%;
+  position: absolute;
+  top: 550px;
+  left: 450px;
+  z-index: 2;
+}
+#tree3 {
+  width: 15%;
+  position: absolute;
+  top: 530px;
+  left: 550px;
+  z-index: 2;
+}
+#ficus1 {
+  width: 15%;
+  position: absolute;
+  top: 530px;
+  left: 700px;
+  z-index: 2;
+}
+#ficus2 {
+  width: 25%;
+  position: absolute;
+  top: 530px;
+  left: 800px;
+  z-index: 2;
+}
+#ficus3 {
+  width: 25%;
+  position: absolute;
+  top: 350px;
+  left: 700px;
+  z-index: 1;
+}
+#tree4 {
+  width: 25%;
+  position: absolute;
+  top: 350px;
+  left: 800px;
+  z-index: 1;
+}
+#tree5 {
+  width: 25%;
+  position: absolute;
+  top: 450px;
+  left: 600px;
+  z-index: 1;
+}
